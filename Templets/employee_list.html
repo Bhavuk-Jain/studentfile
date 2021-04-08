@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>emlpoyee1 data</title>
+</head>
+<body>
+
+{%  for emo in Employee %}
+<h><b>Name-</b></h><label for="name"><b>{{emo.username}}</b></label>
+<h><b>Address-</h></b><label for="address"><b>{{emo.address}}</b></label>
+<h><b>Email-</h></b><label for="email"><b>{{emo.email}}</b></label>
+{% endfor %}
+
+</body>
+</html>
